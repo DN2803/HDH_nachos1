@@ -46,7 +46,7 @@
 //	"which" is the kind of exception.  The list of possible exceptions 
 //	are in machine.h.
 //----------------------------------------------------------------------
-void IncreasePC()
+void increasePC()
 {
     int counter = machine->ReadRegister(PCReg);
    	machine->WriteRegister(PrevPCReg, counter);
