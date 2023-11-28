@@ -30,6 +30,14 @@
 #define SC_Fork		9
 #define SC_Yield	10
 
+// user defined 
+#define SC_ReadInt 11
+#define SC_PrintInt 12
+#define SC_ReadChar 13
+#define SC_PrintChar 14
+#define SC_ReadString 15
+#define SC_PrintString 16
+
 #ifndef IN_ASM
 
 /* The system call interface.  These are the operations the Nachos

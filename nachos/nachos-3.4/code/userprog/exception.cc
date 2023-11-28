@@ -107,6 +107,12 @@ void ExceptionHandler(ExceptionType which)
                 printf ("\n\n Shutdown, initiated by user program."); 
                 interrupt->Halt(); 
                 break; 
+
+            case SC_ReadInt: 
+            {
+                
+
+            }
         }
         break;
     }
