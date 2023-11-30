@@ -132,6 +132,17 @@ void Fork(void (*func)());
  */
 void Yield();		
 
+//----------------------------------------------------
+// Các phần Dương code nek
+int ReadInt();
+void PrintInt(int number);
+
+char ReadChar();
+void PrintChar(char c);
+
+void ReadString(char* buffer, int length);
+void PrintString(char* buffer);
+
 #endif /* IN_ASM */
 
 #endif /* SYSCALL_H */
