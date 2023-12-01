@@ -3,17 +3,17 @@
 
 int main()
 {    
-    int number;
-    PrintString("Enter a number: ");
-    number = ReadInt();
-    PrintInt(number);
-    Halt();
-
-    // char c;
-    // PrintString("Enter a character: ");
-    // c = ReadChar();
-    // PrintChar(c);
+    // int number;
+    // PrintString("Enter a number: ");
+    // number = ReadInt();
+    // PrintInt(number);
     // Halt();
+
+    char c;
+    PrintString("Enter a character: ");
+    c = ReadChar();
+    PrintChar(c);
+    Halt();
 
     // char* str;
     // int length = 255;

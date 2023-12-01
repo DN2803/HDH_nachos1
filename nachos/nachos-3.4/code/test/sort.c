@@ -14,19 +14,34 @@ int A[1024];	/* size of physical memory; with code, we'll run out of space!*/
 int
 main()
 {
-    int i, j, tmp;
+    // int i, j, tmp;
+    // //
+    // int n;
+    // do{
+    //     PrintString("\nenter size of array: ");
+    //     n = ReadInt();
+    // }while (n < 0 || n > 100);
+    // PrintString ("enter all element of array: \n");
+    // for(i = 0; i < n; i++) {
+    //     A[i] = ReadInt();
+    // }
+    // // /* first initialize the array, in reverse sorted order */
+    // // for (i = 0; i < 1024; i++)		
+    // //     A[i] = 1024 - i;
 
-    /* first initialize the array, in reverse sorted order */
-    for (i = 0; i < 1024; i++)		
-        A[i] = 1024 - i;
-
-    /* then sort! */
-    for (i = 0; i < 1023; i++)
-        for (j = i; j < (1023 - i); j++)
-	   if (A[j] > A[j + 1]) {	/* out of order -> need to swap ! */
-	      tmp = A[j];
-	      A[j] = A[j + 1];
-	      A[j + 1] = tmp;
-    	   }
-    Exit(A[0]);		/* and then we're done -- should be 0! */
+    // /* then sort! */
+    // for (i = 0; i < n; i++)
+    //     for (j = i; j < (n - i); j++)
+	//     if (A[j] > A[j + 1]) {	/* out of order -> need to swap ! */
+    //         tmp = A[j];
+    //         A[j] = A[j + 1];
+    //         A[j + 1] = tmp;
+    //         }
+    // PrintString ("Array after sort ascending\n");
+    // for (i = 0; i < n; i++) {
+    //     PrintInt(A[i]);
+    //     PrintChar(' ');
+    // }
+    Halt();
+    //Exit(A[0]);		/* and then we're done -- should be 0! */
 }
