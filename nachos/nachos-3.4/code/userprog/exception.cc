@@ -150,8 +150,8 @@ void ExceptionHandler(ExceptionType which)
         interrupt->Halt();
         break;
     case NumExceptionTypes:
-        DEBUG('a', "\n");
-        printf("\n\n");
+        DEBUG('a', "\n Shutdown, Num exception types...");
+        printf("\n\nShutdown, Num exception types...");
         interrupt->Halt();
         break;
     case SyscallException:
